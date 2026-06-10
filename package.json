@@ -4,11 +4,12 @@
   "description": "Test task",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./ && copyfiles -u 1 \"src/assets/**/*\" dist",
     "clean": "rm -rf dist .parcel-cache"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
+    "copyfiles": "^2.4.1",
     "parcel": "^2.10.3"
   }
 }

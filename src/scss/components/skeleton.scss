@@ -1,0 +1,104 @@
+.skeleton-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+
+    &__item {
+        width: clamp(270px, var(--card-width), 390px);
+        height: 40px;
+        background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%, #f0f0f0 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 4px; 
+    }
+}
+
+// ---- Skeleton Cards (6 шт: 3x2) ----
+.skeleton-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.skeleton-card {
+    width: clamp(270px, var(--card-width, 330px), 390px);
+    border: 1px solid #e2e4e8; 
+    border-radius: 4px;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+                0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+                0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+                0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    background: #fff;
+    overflow: hidden;
+    cursor: default; 
+
+    &__img-wr {
+        max-height: 240px;
+        overflow: hidden;
+        background: linear-gradient(90deg, #ffd966 0%, #ffb347 25%, #ffd966 50%, #ffb347 75%, #ffd966 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+
+        &::before {
+            content: '';
+            display: block;
+            min-height: 240px;
+        }
+    }
+
+
+    &__body {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__badge {
+        width: 80px;
+        height: 24px;
+        background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%, #f0f0f0 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 4px;
+    }
+
+    &__title {
+        height: 24px;
+        width: 90%;
+        background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%, #f0f0f0 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 4px;
+    }
+
+    &__bottom {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        &-price {
+            width: 60px;
+            height: 28px;
+            background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%, #f0f0f0 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: 4px;
+        }
+        &-author {
+            width: 100px;
+            height: 20px;
+            background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%, #f0f0f0 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: 4px;
+        }
+    }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}

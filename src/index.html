@@ -11,55 +11,21 @@
 </head>
 <body>
     <section class="courses">
-        <div class="container">
+        <div class="container">            
             <div class="courses__titles-wr">
                 <h6 class="courses__subtitle">Enjoy your studying!</h6>
                 <h1 class="courses__title">Our online courses</h1>
             </div>
             <div class="courses__tabs-wr">
-                <div class="tabs">
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-all" value="all" class="tabs__radio" checked>
-                        <label for="tab-all" class="tabs__label">
-                            <span class="tabs__name">All</span>
-                            <sup class="tabs__count" id="count-all">0</sup>
-                        </label>
-                    </div>
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-marketing" value="marketing" class="tabs__radio">
-                        <label for="tab-marketing" class="tabs__label">
-                            <span class="tabs__name">Marketing</span>
-                            <sup class="tabs__count" id="count-marketing">0</sup>
-                        </label>
-                    </div>
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-management" value="management" class="tabs__radio">
-                        <label for="tab-management" class="tabs__label">
-                            <span class="tabs__name">Management</span>
-                            <sup class="tabs__count" id="count-management">0</sup>
-                        </label>
-                    </div>
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-hr" value="hr" class="tabs__radio">
-                        <label for="tab-hr" class="tabs__label">
-                            <span class="tabs__name">HR & Recruting</span>
-                            <sup class="tabs__count" id="count-hr">0</sup>
-                        </label>
-                    </div>
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-design" value="design" class="tabs__radio">
-                        <label for="tab-design" class="tabs__label">
-                            <span class="tabs__name">Design</span>
-                            <sup class="tabs__count" id="count-design">0</sup>
-                        </label>
-                    </div>
-                    <div class="tabs__item">
-                        <input type="radio" name="category" id="tab-development" value="development" class="tabs__radio">
-                        <label for="tab-development" class="tabs__label">
-                            <span class="tabs__name">Development</span>
-                            <sup class="tabs__count" id="count-development">0</sup>
-                        </label>
-                    </div>
+                <div class="skeleton-tabs" id="skeletonTabs">
+                    <div class="skeleton-tabs__item"></div>
+                    <div class="skeleton-tabs__item"></div>
+                    <div class="skeleton-tabs__item"></div>
+                    <div class="skeleton-tabs__item"></div>
+                    <div class="skeleton-tabs__item"></div>
+                    <div class="skeleton-tabs__item"></div>
+                </div>
+                <div class="tabs" id="tabsContainer" style="display: none;">
                 </div>
                 <div class="search">
                     <div class="search__wrapper">
@@ -72,143 +38,90 @@
                     </div>
                 </div>
             </div>
-            <div class="courses__grid">
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-8.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+
+            <div class="courses__grid skeleton-courses" id="skeletonCourses">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-marketing">Marketing</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">The Ultimate Google Ads Training Course</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>100</span>
-                            <span class="card__author">by <span class="author">Jerome Bell</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-7.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-management">Management</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">Prduct Management Fundamentals</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>480</span>
-                            <span class="card__author">by <span class="author">Marvin McKinney</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-6.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-hr">HR & Recruting</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">HR  Management and Analytics</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>200</span>
-                            <span class="card__author">by <span class="author">Leslie Alexander Li</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-5.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-marketing">Marketing</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">Brand Management & PR Communications</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>530</span>
-                            <span class="card__author">by <span class="author">Kristin Watson</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-4.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-design">Design</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">Graphic Design Basic</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>500</span>
-                            <span class="card__author">by <span class="author">Guy Hawkins</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-3.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
+                <div class="courses__card skeleton-card">
+                    <div class="card__img-wr skeleton-card__img-wr"></div>
+                    <div class="card__body skeleton-card__body">
                         <div class="card__badges-wr">
-                            <span class="card__badge badge badge-management">Management</span>
+                            <span class="skeleton-card__badge"></span>
                         </div>
-                        <h3 class="card__title">Business Development Management</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>400</span>
-                            <span class="card__author">by <span class="author">Dianne Russell</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-2.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
-                        <div class="card__badges-wr">
-                            <span class="card__badge badge badge-development">Development</span>
-                        </div>
-                        <h3 class="card__title">Highload Software Architecture</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>600</span>
-                            <span class="card__author">by <span class="author">Brooklyn Simmons</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image-1.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
-                        <div class="card__badges-wr">
-                            <span class="card__badge badge badge-hr">HR & Recruting</span>
-                        </div>
-                        <h3 class="card__title">Human Resources – Selection and Recruitment</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>150</span>
-                            <span class="card__author">by <span class="author">Kathryn Murphy</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses__card card">
-                    <div class="card__img-wr">
-                        <img src="./assets/card/image.jpg" alt="" class="card__img">
-                    </div>
-                    <div class="card__body">
-                        <div class="card__badges-wr">
-                            <span class="card__badge badge badge-design">Design</span>
-                        </div>
-                        <h3 class="card__title">User Experience. Human-centered Design</h3>
-                        <div class="card__bottom">
-                            <span class="card__price"><span class="card__currency">$</span>240</span>
-                            <span class="card__author">by <span class="author">Cody Fisher</span></span>
+                        <div class="skeleton-card__title"></div>
+                        <div class="card__bottom skeleton-card__bottom">
+                            <span class="skeleton-card__bottom-price"></span>
+                            <span class="skeleton-card__bottom-author"></span>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="courses__grid" id="coursesGrid" style="display: none;"></div>
+
             <div class="courses__bottom">
                 <button class="load-more" id="loadMore">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -221,42 +134,6 @@
 
         </div>
     </section>
-
-    <!-- Внутри .courses__tabs-wr -->
-<div class="courses__tabs-wr">
-    <!-- Skeleton tabs (6 шт) -->
-    <div class="skeleton-tabs" id="skeletonTabs">
-        <div class="skeleton-tabs__item"></div>
-        <div class="skeleton-tabs__item"></div>
-        <div class="skeleton-tabs__item"></div>
-        <div class="skeleton-tabs__item"></div>
-        <div class="skeleton-tabs__item"></div>
-        <div class="skeleton-tabs__item"></div>
-    </div>
-    <!-- Real tabs (изначально скрыты) -->
-    <div class="tabs" id="tabsContainer" style="display: none;">
-        <!-- динамически заполнятся из JS -->
-    </div>
-    <div class="search">...</div>
-</div>
-
-<!-- Вместо старого .courses__grid -->
-<!-- Skeleton cards (6 шт: 3x2) -->
-<div class="courses__grid skeleton-courses" id="skeletonCourses">
-    <div class="courses__card skeleton-card"></div>
-    <div class="courses__card skeleton-card"></div>
-    <div class="courses__card skeleton-card"></div>
-    <div class="courses__card skeleton-card"></div>
-    <div class="courses__card skeleton-card"></div>
-    <div class="courses__card skeleton-card"></div>
-</div>
-
-<!-- Real cards grid (изначально скрыт) -->
-<div class="courses__grid" id="coursesGrid" style="display: none;"></div>
-
-<div class="courses__bottom">
-    <button class="load-more" id="loadMore">...</button>
-</div>
 
     <script src="./js/main.js"></script>
 </body>
