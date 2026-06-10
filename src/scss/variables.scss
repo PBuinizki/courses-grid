@@ -1,0 +1,25 @@
+$color-white: rgba(255,255,255,1);
+$color-primary: rgba(255,63,58,1);
+$color-btn-gradient: linear-gradient(to bottom, rgba(255,63,58,1) 0%,rgba(247,94,5,0.967) 100%);
+$color-secondary: rgba(255,207,45,1);
+$color-divider-gradient: linear-gradient(to bottom, rgba(218,219,221,0.855) 0%,rgba(218,219,221,0.856) 12.33%,rgba(218,219,221,0.856) 51.91%,rgba(218,219,221,0.856) 87.85%,rgba(218,219,221,0.855) 100%);
+$color-success: rgba(3,206,164,1);
+$color-danger: rgba(255,66,66,1);
+$color-warning: rgba(248,152,40,1);
+$color-info: rgba(90,135,252,1);
+$color-pink: rgb(245, 47, 110);
+$color-violet: rgb(119, 114, 241);
+$color-gray-900: rgba(30,33,44,1);
+$color-gray-800: rgba(66,69,81,1);
+$color-gray-700: rgba(120,122,128,1);
+$color-gray-600: rgba(154,156,165,1);
+$color-gray-500: rgba(179,183,188,1);
+$color-gray-400: rgba(215,218,221,1);
+$color-gray-300: rgba(229,232,237,1);
+$color-gray-200: rgba(244,245,246,1);
+$color-gray-100: rgba(249,249,249,1);
+$card-gap: 30px;
+
+:root {
+  --card-width: calc(45% - 15px);
+}

@@ -1,0 +1,140 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "The Ultimate Google Ads Training Course",
+      "category": "marketing",
+      "author": "Jerome Bell",
+      "price": 100,
+      "image": "./assets/card/image-8.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Product Management Fundamentals",
+      "category": "management",
+      "author": "Marvin McKinney",
+      "price": 480,
+      "image": "./assets/card/image-7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "HR Management and Analytics",
+      "category": "hr",
+      "author": "Leslie Alexander Li",
+      "price": 200,
+      "image": "./assets/card/image-6.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Brand Management & PR Communications",
+      "category": "marketing",
+      "author": "Kristin Watson",
+      "price": 530,
+      "image": "./assets/card/image-5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Graphic Design Basic",
+      "category": "design",
+      "author": "Guy Hawkins",
+      "price": 500,
+      "image": "./assets/card/image-4.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Business Development Management",
+      "category": "management",
+      "author": "Dianne Russell",
+      "price": 400,
+      "image": "./assets/card/image-3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Highload Software Architecture",
+      "category": "development",
+      "author": "Brooklyn Simmons",
+      "price": 600,
+      "image": "./assets/card/image-2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Human Resources – Selection and Recruitment",
+      "category": "hr",
+      "author": "Kathryn Murphy",
+      "price": 150,
+      "image": "./assets/card/image-1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "User Experience. Human-centered Design",
+      "category": "design",
+      "author": "Cody Fisher",
+      "price": 240,
+      "image": "./assets/card/image.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Social Media Marketing Masterclass",
+      "category": "marketing",
+      "author": "Emily Johnson",
+      "price": 420,
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "SEO for Beginners",
+      "category": "marketing",
+      "author": "Michael Brown",
+      "price": 380,
+      "image": ""
+    },
+    {
+      "id": 12,
+      "name": "Agile Project Management",
+      "category": "management",
+      "author": "Robert Fox",
+      "price": 550,
+      "image": ""
+    },
+    {
+      "id": 13,
+      "name": "HR Digital Transformation",
+      "category": "hr",
+      "author": "Natalya Krylova",
+      "price": 429,
+      "image": ""
+    },
+    {
+      "id": 14,
+      "name": "Talent Management Strategies",
+      "category": "hr",
+      "author": "Olivia Wilson",
+      "price": 300,
+      "image": ""
+    },
+    {
+      "id": 15,
+      "name": "Compensation and Benefits",
+      "category": "hr",
+      "author": "William Davis",
+      "price": 275,
+      "image": ""
+    },
+    {
+      "id": 16,
+      "name": "Full Stack JavaScript",
+      "category": "development",
+      "author": "Jacob Jones",
+      "price": 720,
+      "image": ""
+    },
+    {
+      "id": 17,
+      "name": "Python for Data Science",
+      "category": "development",
+      "author": "Jane Cooper",
+      "price": 680,
+      "image": ""
+    }
+  ]
+}

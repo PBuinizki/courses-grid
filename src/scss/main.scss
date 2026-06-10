@@ -1,0 +1,33 @@
+@import './base';
+@import './variables';
+@import './mixins';
+@import './layout/container';
+@import './components/courses';
+@import './components/tabs';
+@import './components/search';
+@import './components/card';
+
+
+h1 {
+    @include text-style-h-1();
+}
+
+h2 {
+    @include text-style-h-2();
+}
+
+h3 {
+    @include text-style-h-3();
+}
+
+h4 {
+    @include text-style-h-4();
+}
+
+h5 {
+    @include text-style-h-5();
+}
+
+h6 {
+    @include text-style-h-6();
+}

@@ -1,0 +1,60 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+    &__item {
+        position: relative;
+        height: 46px;
+        overflow: hidden;
+    }
+    
+    &__radio {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        
+        &:focus-visible + .tabs__label {
+            outline: 2px solid $color-primary;
+            outline-offset: 2px;
+        }
+        
+        &:checked + .tabs__label {
+            color: $color-primary;
+            border: 1px solid $color-primary;
+            
+            .tabs__count {
+                color: $color-primary;
+            }
+        }
+    }
+    
+    &__label {
+        color: $color-gray-600;
+        display: inline-flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding: 9px 20px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+
+        @include text-style-base-bold();
+        
+        &:hover {
+            color: $color-primary;
+        }
+    }
+    
+    &__name {
+        text-transform: capitalize;
+    }
+    
+    &__count {
+        @include text-style-extrasmall-bold();
+        transition: all 0.2s ease;
+    }
+}
