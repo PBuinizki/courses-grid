@@ -1,13 +1,13 @@
 {
-  "name": "courses-test-project",
+  "name": "courses-project",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "npx parcel build src/index.html --dist-dir dist --public-url ./ && cp -r src/static dist/static",
-    "clean": "rm -rf dist .parcel-cache"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.10.3",
-    "parcel": "^2.10.3"
+    "sass": "^1.69.5",
+    "vite": "^5.0.0"
   }
 }
