@@ -221,6 +221,43 @@
 
         </div>
     </section>
+
+    <!-- Внутри .courses__tabs-wr -->
+<div class="courses__tabs-wr">
+    <!-- Skeleton tabs (6 шт) -->
+    <div class="skeleton-tabs" id="skeletonTabs">
+        <div class="skeleton-tabs__item"></div>
+        <div class="skeleton-tabs__item"></div>
+        <div class="skeleton-tabs__item"></div>
+        <div class="skeleton-tabs__item"></div>
+        <div class="skeleton-tabs__item"></div>
+        <div class="skeleton-tabs__item"></div>
+    </div>
+    <!-- Real tabs (изначально скрыты) -->
+    <div class="tabs" id="tabsContainer" style="display: none;">
+        <!-- динамически заполнятся из JS -->
+    </div>
+    <div class="search">...</div>
+</div>
+
+<!-- Вместо старого .courses__grid -->
+<!-- Skeleton cards (6 шт: 3x2) -->
+<div class="courses__grid skeleton-courses" id="skeletonCourses">
+    <div class="courses__card skeleton-card"></div>
+    <div class="courses__card skeleton-card"></div>
+    <div class="courses__card skeleton-card"></div>
+    <div class="courses__card skeleton-card"></div>
+    <div class="courses__card skeleton-card"></div>
+    <div class="courses__card skeleton-card"></div>
+</div>
+
+<!-- Real cards grid (изначально скрыт) -->
+<div class="courses__grid" id="coursesGrid" style="display: none;"></div>
+
+<div class="courses__bottom">
+    <button class="load-more" id="loadMore">...</button>
+</div>
+
     <script src="./js/main.js"></script>
 </body>
 </html>
